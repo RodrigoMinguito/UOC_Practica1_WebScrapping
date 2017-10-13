@@ -1,7 +1,7 @@
 from browserBase import BrowserBase
 from bs4 import BeautifulSoup
 
-class BrowserXYahoo(BrowserBase):
+class BrowserXGoogle(BrowserBase):
     def __init__(self):
         self.browser_id = "GOOGLE"
         self.browser_web = "https://finance.google.com/finance?q="

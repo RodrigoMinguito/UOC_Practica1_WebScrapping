@@ -1,7 +1,7 @@
 from browserBase import BrowserBase
 from bs4 import BeautifulSoup
 
-class BrowserXYahoo(BrowserBase):
+class BrowserXNasdaq(BrowserBase):
     def __init__(self):
         self.browser_id = "NASDAQ"
         self.browser_web = "http://www.nasdaq.com/es/symbol/"
