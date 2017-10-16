@@ -60,7 +60,7 @@ for elem in lista:
 
 listTicklers.sort()
 
-with open('index2.csv', 'a') as fileCSV:
+with open('dataset.csv', 'a') as fileCSV:
     for tickler in listTicklers:
         print("\n" + tickler)
         listaResults = []
